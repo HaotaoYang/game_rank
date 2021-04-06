@@ -1,0 +1,14 @@
+{application, game_rank, [
+    {description, "for rank"},
+    {vsn, "0.3.5"},
+    {registered, []},
+    {mod, {game_rank_app, []}},
+    {applications, [kernel, stdlib, gproc]},
+    {included_applications, [recordset]},
+    {env, []},
+    {modules, []},
+
+    {maintainers, []},
+    {licenses, ["Apache 2.0"]},
+    {links, []}
+]}.
